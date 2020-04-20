@@ -4,8 +4,6 @@
 
 -- add missing commits from https://github.com/pinterest/teletraan/pull/491/files#diff-380d85d61edaf8019bd4a4cd16a48c36
 
-ALTER TABLE environs ADD COLUMN schedule_id VARCHAR(22);
-
 CREATE TABLE IF NOT EXISTS host_tags (
     host_id        VARCHAR(64)         NOT NULL,
     env_id         VARCHAR(22)         NOT NULL,
